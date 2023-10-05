@@ -33,31 +33,31 @@ updates:
         update-types:
           - version-update:semver-major
 
-# # AutoDarkModeLib
-#   - package-ecosystem: nuget
-#     directory: /AutoDarkModeLib
-#     open-pull-requests-limit: 5
-#     schedule:
-#       interval: daily
-#     groups:
-#       lib-development-dependencies:
-#         dependency-type: development
-#         patterns:
-#           - "*"
-#         update-types:
-#           - minor
-#           - patch
-#       lib-production-dependencies:
-#         dependency-type: production
-#         patterns:
-#           - "*"
-#         update-types:
-#           - minor
-#           - patch
-#     ignore:
-#       - dependency-name: "*"
-#         update-types:
-#           - version-update:semver-major
+# AutoDarkModeLib
+  - package-ecosystem: nuget
+    directory: /AutoDarkModeLib
+    open-pull-requests-limit: 5
+    schedule:
+      interval: daily
+    groups:
+      lib-development-dependencies:
+        dependency-type: development
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+      lib-production-dependencies:
+        dependency-type: production
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - version-update:semver-major
 
 # # AutoDarkModeShell
 #   - package-ecosystem: nuget
