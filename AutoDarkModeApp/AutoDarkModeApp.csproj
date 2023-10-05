@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
@@ -99,7 +99,7 @@
   <ItemGroup>
     <PackageReference Include="FluentWPF" Version="0.10.2" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="Microsoft.VisualStudio.VsixColorCompiler" Version="17.0.31709.430" />
+    <PackageReference Include="Microsoft.VisualStudio.VsixColorCompiler" Version="17.5.33428.366" />
     <PackageReference Include="ModernWpfUI" Version="0.9.6" />
     <PackageReference Include="ModernWpfUI.MahApps" Version="0.9.5" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
